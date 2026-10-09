@@ -34,4 +34,4 @@ Export orders: `npm run export:orders`. Keep the output private because it conta
 
 The app runs locally and records orders on its server. It is an independent Khawja application inspired by KFC's visual style, not an exact official KFC replica. Artwork and prices are samples. Public hosting, restaurant fulfillment, SMS, online payments, accounts and a staff dashboard are not connected. Cash payment selection does not confirm that cash was collected. The included Docker deployment recipe has not been tested here.
 
-Do not upload this to static-only hosting: checkout requires the Node server and a persistent disk. See README.md for hosting and database details.
+Vercel-specific deployment instructions are in VERCEL.md. Do not upload this to static-only hosting: checkout requires the Node server and a persistent disk. See README.md for hosting and database details.

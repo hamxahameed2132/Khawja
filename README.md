@@ -4,7 +4,7 @@ An independent, KFC-inspired food ordering web application. Includes a responsiv
 
 ## Requirements
 
-Node.js **24 or newer** and npm. The backend uses Node's built-in SQLite support. No API keys or paid services are needed to run locally.
+Node.js **24 or newer** and npm. The backend uses Node's built-in SQLite support. No API keys or paid services are needed to run locally. Hosted Vercel checkout requires Turso credentials.
 
 ## Start locally
 
@@ -36,7 +36,11 @@ The automated integration suite uses a temporary database and tests menu/static 
 
 Browser order history is limited to the latest 30 receipts and is specific to that browser. Server records persist independently. Customer data is not exposed through a public order-list endpoint.
 
-## Deployment
+## Vercel deployment
+
+See [VERCEL.md](VERCEL.md) for Vercel setup. Serverless handlers are included in `api/`; hosted checkout uses Turso with `TURSO_DATABASE_URL` and `TURSO_AUTH_TOKEN` supplied securely in Vercel settings. Local SQLite does not persist on Vercel. Account access and database credentials are required before a live ordering deployment can be verified.
+
+## Node/Docker deployment
 
 This is a Node application, not a static-only website. Set `PORT` (default 3000), optional `HOST` (default 0.0.0.0), and `DB_PATH` to a writable, persistent disk location. Place it behind an HTTPS reverse proxy. Preserve the Host header so same-origin checkout requests are accepted. Back up the SQLite database using SQLite's supported backup tools; do not copy only the live database file while ignoring its WAL files.
 
