@@ -1,0 +1,79 @@
+{
+  "currency": "PKR",
+  "sampleData": true,
+  "products": [
+    {
+      "id": 1,
+      "name": "Krunch Burger",
+      "category": "Everyday Value",
+      "price": 310,
+      "icon": "\ud83c\udf54",
+      "description": "Crunchy chicken fillet, fresh lettuce and signature mayo.",
+      "image": "/images/burger.svg"
+    },
+    {
+      "id": 2,
+      "name": "Zinger Burger",
+      "category": "Burgers",
+      "price": 600,
+      "icon": "\ud83c\udf54",
+      "description": "A crispy, spicy chicken fillet with lettuce and mayo.",
+      "image": "/images/burger.svg"
+    },
+    {
+      "id": 3,
+      "name": "Mighty Zinger",
+      "category": "Burgers",
+      "price": 850,
+      "icon": "\ud83c\udf54",
+      "description": "Double chicken fillets, cheese and a bold spicy kick.",
+      "image": "/images/burger.svg"
+    },
+    {
+      "id": 4,
+      "name": "Chicken & Chips",
+      "category": "Everyday Value",
+      "price": 590,
+      "icon": "\ud83c\udf57",
+      "description": "Crispy fried chicken served with golden fries.",
+      "image": "/images/chicken.svg"
+    },
+    {
+      "id": 5,
+      "name": "Family Feast",
+      "category": "Sharing",
+      "price": 2590,
+      "icon": "\ud83e\udea3",
+      "description": "A bucket of crispy chicken, fries and drinks to share.",
+      "image": "/images/chicken.svg"
+    },
+    {
+      "id": 6,
+      "name": "Hot Wings",
+      "category": "Snacks",
+      "price": 550,
+      "icon": "\ud83c\udf57",
+      "description": "Six crispy wings with a delicious spicy crunch.",
+      "image": "/images/chicken.svg"
+    },
+    {
+      "id": 7,
+      "name": "Large Fries",
+      "category": "Snacks",
+      "price": 390,
+      "icon": "\ud83c\udf5f",
+      "description": "Golden, crispy fries. The perfect side to your meal.",
+      "image": "/images/fries.svg"
+    },
+    {
+      "id": 8,
+      "name": "Pepsi",
+      "category": "Drinks",
+      "price": 180,
+      "icon": "\ud83e\udd64",
+      "description": "A refreshing chilled drink to complete your meal.",
+      "image": "/images/drink.svg"
+    }
+  ],
+  "deliveryFee": 150
+}

@@ -1,0 +1,23 @@
+{
+  "currency": "PKR",
+  "sampleData": true,
+  "orders": [
+    {
+      "id": "sample-order-001",
+      "createdAt": "2026-10-09T00:00:00Z",
+      "mode": "Delivery",
+      "status": "demo",
+      "currency": "PKR",
+      "items": [
+        {
+          "productId": 1,
+          "name": "Krunch Burger",
+          "unitPrice": 310,
+          "quantity": 2,
+          "subtotal": 620
+        }
+      ],
+      "total": 620
+    }
+  ]
+}

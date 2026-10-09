@@ -1,0 +1,9 @@
+id,name,category,price,description,image
+1,Krunch Burger,Everyday Value,310,"Crunchy chicken fillet, fresh lettuce and signature mayo.",/images/burger.svg
+2,Zinger Burger,Burgers,600,"A crispy, spicy chicken fillet with lettuce and mayo.",/images/burger.svg
+3,Mighty Zinger,Burgers,850,"Double chicken fillets, cheese and a bold spicy kick.",/images/burger.svg
+4,Chicken & Chips,Everyday Value,590,Crispy fried chicken served with golden fries.,/images/chicken.svg
+5,Family Feast,Sharing,2590,"A bucket of crispy chicken, fries and drinks to share.",/images/chicken.svg
+6,Hot Wings,Snacks,550,Six crispy wings with a delicious spicy crunch.,/images/chicken.svg
+7,Large Fries,Snacks,390,"Golden, crispy fries. The perfect side to your meal.",/images/fries.svg
+8,Pepsi,Drinks,180,A refreshing chilled drink to complete your meal.,/images/drink.svg
